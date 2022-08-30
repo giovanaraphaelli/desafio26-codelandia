@@ -1,0 +1,82 @@
+.artist-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2.5rem 1rem;
+
+  h2 {
+    font-size: 2.5rem;
+    color: $text-color-primary;
+    font-weight: 500;
+  }
+
+  .artist-wrapper-card {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    .artist-card {
+      width: 100%;
+      height: 400px;
+      padding: 1.5rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: $text-color-tertiary;
+
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+
+      span {
+        font-size: 0.875rem;
+        font-weight: 500;
+      }
+
+      &:hover {
+        background-size: 102%;
+      }
+    }
+    #artist1 {
+      background-image: url(../img/artist1.png);
+    }
+    #artist2 {
+      background-image: url(../img/artist2.png);
+    }
+    #artist3 {
+      background-image: url(../img/artist3.png);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .artist-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2.5rem 1rem;
+
+    h2 {
+      font-size: 2.5rem;
+      color: $text-color-primary;
+      font-weight: 500;
+    }
+
+    .artist-wrapper-card {
+      flex-direction: column;
+
+      .artist-card {
+        h3 {
+          font-size: 1.375rem;
+        }
+
+        span {
+          font-size: 0.875rem;
+        }
+      }
+    }
+  }
+}
