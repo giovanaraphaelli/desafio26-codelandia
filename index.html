@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/main.css">
     <title>Art.</title>
 </head>
@@ -20,7 +21,7 @@
     </div>
 
     <header class="header container">
-        <div class="header-content">
+        <div class="header-content" data-aos="fade-right" data-aos-duration="1000">
             <h1>Descubra novos artistas<br>e suas obras</h1>
             <p>Uma nova geração de jovens artistas surgem</p>
             <a href="" class="btn">Explorar</a>
@@ -40,7 +41,7 @@
             </div>
 
         </div>
-        <div class="header-img">
+        <div class="header-img" data-aos="fade-left" data-aos-duration="3000">
             <figure>
                 <img src="./img/imagem direita.png" alt="">
             </figure>
@@ -50,17 +51,17 @@
 
     <section class="middle-section container">
         <div class="middle-section-galery">
-            <a href="/">
+            <a href="/" data-aos="fade-right" data-aos-duration="2000">
                 <img src="./img/img 1.png" alt="">
             </a>
-            <a href="/">
+            <a href="/" data-aos="fade-right" data-aos-duration="1500">
                 <img src="./img/img 2.png" alt="">
             </a>
-            <a href="/">
+            <a href="/" data-aos="fade-right" data-aos-duration="1000">
                 <img src="./img/img 3.png" alt="">
             </a>
         </div>
-        <div class="middle-section-content">
+        <div class="middle-section-content" data-aos="fade-left" data-aos-duration="1000">
             <h2>Confira as últimas coleções</h2>
             <a href="/" class="btn">Ver Mais</a>
         </div>
@@ -69,15 +70,15 @@
     <section class="artist-section container">
         <h2>Artistas</h2>
         <div class="artist-wrapper-card">
-            <a href="/" class="artist-card" id="artist1">
+            <a href="/" class="artist-card" id="artist1" data-aos="fade-down" data-aos-duration="2500">
                 <h3>Sabine Lowe</h3>
                 <span>Design e Fotógrafa</span>
             </a>
-            <a href="/" class="artist-card" id="artist2">
+            <a href="/" class="artist-card" id="artist2" data-aos="fade-down" data-aos-duration="2000">
                 <h3>Eleanor Pena</h3>
                 <span>Escritora e Design</span>
             </a>
-            <a href="/" class="artist-card" id="artist3">
+            <a href="/" class="artist-card" id="artist3" data-aos="fade-down" data-aos-duration="1500">
                 <h3>Leslie Alexander</h3>
                 <span>Diretora de Arte</span>
             </a>
@@ -107,6 +108,10 @@
 
 
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

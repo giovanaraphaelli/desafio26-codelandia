@@ -4,7 +4,7 @@
 
 #### Este é o desafio _26_ da comunidade _Codelândia_ por [iuricode](https://github.com/iuricode)!
 
-![Resultado final do projeto](../img/projeto-final.png)
+![Resultado final do projeto](img/projeto-final.png)
 
 <h4 align="center"><a href="https://desafio26-codelandia.vercel.app/">Clique para visitar o projeto</a></h4>
 
@@ -18,3 +18,4 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
 - HTML;
 - SASS;
+- Animate on Scroll Library;
