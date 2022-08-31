@@ -10,7 +10,7 @@
 
 ## 🎯 Objetivo
 
-O desafio consiste em desenvolver landing page de acordo com o layout disponibilizado no [Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codelândia?node-id=94211%3A1216).
+O desafio consiste em desenvolver landing page de acordo com o layout disponibilizado no [Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codelândia?node-id=94211%3A1216), onde o meu principal objetivo era exercitar o desenvolvimento com SASS.
 
 ## 🛠️ Tecnologias utilizadas
 
